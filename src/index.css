@@ -11,3 +11,27 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.wrapper-con{
+  margin-top:5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:1rem;
+}
+
+.h{
+  font-size: 3rem;
+}
+
+.share-link{
+  border-radius: 50%;
+  width:2rem;
+  height: 2rem;
+  border:3px solid rgb(5, 255, 5);
+  box-shadow: 2px 2px 20px 2px white;
+  background-color: white;
+
+
+}

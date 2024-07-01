@@ -1,3 +1,4 @@
+/*
 .App {
   text-align: center;
 }
@@ -36,3 +37,157 @@
     transform: rotate(360deg);
   }
 }
+*/
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  background: transparent;
+
+}
+
+body{
+ /*    background-color:#590B0F #243748 */
+ background: hsla(333, 86%, 21%, 1); 
+ color:white;
+  overflow: hidden;
+  overflow-y: scroll;
+  object-fit:cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#skills{
+  overflow: hidden;
+  width: 100vw;
+  max-width: 65rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin:0 auto;
+}
+
+.sktitle{
+  font-size:3rem;
+  font-weight: 600;
+  padding-top: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.skdesc{
+font-weight: 400;
+font-size: 1rem;
+max-width: 51rem;
+padding: 0 2rem;
+}
+
+.skbars{
+  margin:1.5rem;
+  width: 100vw;
+  max-width: 80%;
+  text-align: left;
+}
+
+.sk{
+display: flex;
+margin: 1rem;
+padding: 1.5rem 2rem;
+background:green;
+}
+.skimg{
+  object-fit: cover;
+  height:3rem;
+  width:3rem;
+  margin-right:2rem;
+}
+
+.textsk p{
+  font-size: 1rem;
+  font-weight: 200;
+}
+
+@media screen and (max-width:720px) {
+  .textsk{
+    font-size:2vw;
+  }
+}
+@media screen and (max-width:480px) {
+
+  .textsk{
+    font-size:3vw;
+  }
+  .skimg{
+    height: 2.25rem;
+    width:2.25rem;
+  }
+
+  .textsk h2{
+    font-size: 5vw;
+  }
+}
+
+
+
+
+#project{
+  min-height: cal(100vh-4rem);
+  width: 100vw;
+  max-width:60rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-self:center;
+  text-align: center;
+  padding: 0 2rem;
+  
+}
+
+.protitle{
+  margin: 1rem 0;
+  font-size: 3rem;
+}
+
+.procon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  max-width: 65rem;
+}
+
+.seemore{
+  padding: 0.5rem 2.5rem;
+  border: none;
+  border-radius: 2rem;
+  margin:3rem 0;
+  font-size:1rem;
+  background: white;
+}
+
+
+
+
+
+
+

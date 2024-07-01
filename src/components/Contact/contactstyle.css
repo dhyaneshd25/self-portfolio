@@ -1,0 +1,107 @@
+#contactpage{
+    min-height: calc(100vh-4rem);
+    width:100vw;
+    max-width: 60rem; 
+    margin :0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+
+.contitle{
+padding: 1rem;
+font-size: 2.5rem;
+font-weight: 700;
+}
+
+.con-desc{
+padding: 1rem;
+margin: 1rem;
+font-size: medium;
+font-weight: 300;
+}
+
+.contactform{
+    margin: 2rem;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50vw;
+    max-width:50rem;
+    border-radius: 1rem;
+    background: rgba(123, 0, 94, 0.68);
+    border: 2px dotted blueviolet;
+    box-shadow: 10px 10px 60px 20px #f801ae71;
+}
+
+.sename,.seemail,.meeg{
+    color:white;
+    font-size: medium;
+    width:100%;
+    max-width: 45rem;
+    margin:0.5rem;
+    padding:0.5rem 1rem;
+    color:white;
+    border:none;
+    border-radius: 0.5rem;
+    background: rgba(254, 2, 128, 0.813);
+  }
+  .sename::placeholder,.seemail::placeholder,.meeg::placeholder{
+    color:white;
+  }
+  .sename:hover,.seemail:hover,.meeg :hover{
+    border-bottom: 2px solid yellow;
+  }
+
+.submitbtn{
+  background-color: rgb(0, 255, 217);
+  height: 25px;
+  border-radius: 10px;
+  -webkit-box-reflect: below 0px linear-gradient(transparent,rgba(231, 247, 5, 0.333));
+  box-shadow: 0 1px 5px #03e914, 0 0 15px #03e914, 0 0 25px #03e914, 0 0 100px #03e914;
+    border:none;
+    border-radius: 0.5rem;
+    margin:1rem;
+    padding:0.2rem 1rem;
+    font-size: 1rem;
+}
+.submitbtn:hover{
+  scale:1.1
+}
+
+.contact-profiles{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ gap:2rem;
+}
+
+.link{
+  display: flex;
+  flex-direction: column;
+}
+
+.link img{
+  border-radius: 50%;
+  border:3px solid rgb(5, 255, 5);
+  box-shadow: 2px 2px 20px 2px white;
+  background-color: white;
+}
+
+@media screen and (max-width:750px) {
+  .contactform{
+    position: relative;
+    left: 2rem;
+    width: 70vw;
+    max-width: 70vw;
+   
+  }
+  .contact-profiles{
+    gap:1rem
+  }
+}
