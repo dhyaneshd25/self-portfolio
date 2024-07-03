@@ -2,7 +2,7 @@ import React from "react";
 import './skillstyle.css'
 const Skills=()=>{
     return (<div className="wrapper-con">
-        <h1 className="h">Skills and Certificate</h1>
+        <h1 className="h">Skills</h1>
  <section id="skill">
     <div className="skill-container">
         <div>

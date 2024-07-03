@@ -1,7 +1,7 @@
 #project{
     margin: auto;
     padding: 1rem;
-    width:70vw;
+    width:90vw;
     max-width: 90vw;
     display: flex;
     justify-content: center;
@@ -19,7 +19,10 @@
     justify-content: center;
     align-items: center;
     gap:1rem;
-    width:70%;
+    width:100%;
+}
+.pro h1{
+    font-size:2rem
 }
 
 .pro-con{
@@ -31,9 +34,17 @@
     border-radius: 1rem;
     box-shadow: 10px 10px 60px 20px #f801ae71;
     border: 2px dotted rgb(0, 193, 241); 
-    width: 70rem;
+    width: 100%;
+    height: auto
 }
-
+.swiper{
+    display: flex;
+    gap:1rem;
+    width:100%;
+    overflow: hidden;
+    box-shadow: 0 1px 5px #df059a, 0 0 15px #df059a, 0 0 25px #df059a, 0 0 100px #df059a;
+border-radius: 10px;
+}
 .pro-card{
     padding: 0.5rem;
     display: flex;
@@ -43,33 +54,31 @@
     gap:1rem;
     margin:0.5rem;
     padding: 0.5rem;
+    margin-left: 5rem;
     border-radius: 10px;
     background-color: rgb(0, 255, 217);
-   color: black;
+    box-shadow: 0 1px 5px #df059a, 0 0 15px #df059a, 0 0 25px #df059a, 0 0 100px #df059a;
+    color: black;
    font-size: 1.5rem;
    font-weight: 600;
-   height: 40rem;
-   width:65rem
-   
+   height: 40%;
+   width:80%;
 }
-.swiper{
-    width:100%;
-    
-}
+
 
 .pro-card .imgt{
     object-fit: cover;
     border-radius: 1rem;
-    width: 57rem;
-    height: 32rem;
+    width: 100%;
+    height: 30%;
     
 }
 
 .linkdes{
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    gap:4rem
+    justify-content: center;
+    align-items: center;
+    gap:2rem
 }
 
 .s1{
@@ -82,9 +91,10 @@
 }
 
 .r-prevButton{
+    padding: 0.2rem;
     position: absolute;
-    top:40%;
-    left: 0;
+    bottom:0%;
+    left:0;
     border-radius: 50%;
     width:5rem;
     height: 5rem;
@@ -95,10 +105,10 @@
 }
 
 .r-nextButton{
-    
+       padding: 0.2rem;
         position: absolute;
-        top:40%;
-        right:0;
+        bottom:0%;
+        right:0%;
         border-radius: 50%;
         width:5rem;
         height: 5rem;
@@ -111,4 +121,48 @@
 .links{
     display: flex;
     gap:1rem
+}
+
+@media screen and (max-width:700px) {
+    .pro-card{
+        margin-left: 4rem;
+    }
+    .r-prevButton{
+        width:3rem;
+        height: 3rem;
+    }
+    .r-nextButton{
+        width:3rem;
+        height: 3rem;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .pro-card{
+        margin-left: 2rem;
+    }
+    .s1{
+        font-size: 1.2rem;
+        font-weight: 700;
+    }
+    .s2{
+        font-size: 1rem;
+        font-weight: 400;
+    }
+    
+}
+
+@media screen and (max-width:370px) {
+    .links{
+        flex-direction: column;
+        gap:0;
+    }
+    .r-nextButton{
+        width:2rem;
+        height: 3rem;
+    }
+    .r-prevButton{
+        width:2rem;
+        height: 3rem;
+    }
 }
