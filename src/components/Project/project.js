@@ -45,38 +45,52 @@ return (
           
         </div>
        </div>
-
-       <div className="pro-con">
-        <div className="pro-card">
-           <img src=""/>
-           <div className="links">
-             <a><img src="github.png"/></a>
-             <a></a>
-           </div>
-        </div>
-       </div>
-
-
-       <div className="pro-con">
+       
+        <div className="pro">     
+        <h1>MERN Stack</h1>
+          <div className="pro-con">
       
         <Swiper {...sliderSettings}>
           <SlideNextButton />
           {/* slider */}
             <SwiperSlide >
             <div className="pro-card">
-           <img src=""/>
-           <div className="links">
-             <a><img src="github.png"/></a>
-             <a></a>
-           </div>
-           </div>
+             <img className="imgt" src="resapp.png"/>
+             <div className="linkdes">
+              <span className="protit">
+                      <span className="s1">RealEstate Website</span>
+                      <span className="s2">Nodejs Express Reactjs MongoDB</span>
+              </span>
+              <div className="links"> <a href=""><img className="share-link" src="github.png"/></a>
+            <a href="">o</a>
+         </div>
+             </div>
+             </div>
+               </SwiperSlide>
+
+               <SwiperSlide >
+            <div className="pro-card">
+             <img className="imgt" src="drapp.png"/>
+             <div className="linkdes">
+              <span className="protit">
+                      <span className="s1">Dynamic TO-DO List with PDF generator</span>
+                      <span className="s2">Nodejs Express Reactjs MongoDB</span>
+              </span>
+              <div className="links"> <a href=""><img className="share-link" src="github.png"/></a>
+            <a href="">o</a>
+         </div>
+             </div>
+             </div>
                </SwiperSlide>
          
         </Swiper>
+
+      
       
        </div>
 
-
+       </div>
+ 
       
 
 
