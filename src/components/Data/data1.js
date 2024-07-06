@@ -5,16 +5,16 @@ const data1=[
        title:"Static Movie Info Webite",
        tech:"Reactjs,Nodejs",
        git_link:"https://github.com/dhyaneshd25/static_movie_info_website_using_reactjs",
-       app_link:"",
+       app_link:"https://static-movie-info-website-git-3a434b-dhyanesh-dharmiks-projects.vercel.app",
        dis_link:true
     },
     {
         id:2,
-        img_name:"wapp.png",
+        img_name:"whapp.png",
         title:"Weather App",
         tech:"Reactjs,Nodejs",
         git_link:"https://github.com/dhyaneshd25/Weather-App-using-React-js",
-        app_link:"",
+        app_link:"https://weather-app-using-react-js-navy.vercel.app/",
         dis_link:true
      },
      {
@@ -32,8 +32,8 @@ const data1=[
         title:"Static Tours and Travels Webite",
         tech:"Reactjs,Nodejs",
         git_link:"https://github.com/dhyaneshd25/Static-Tour-and-Travel-Website-using-React-js",
-        app_link:"",
-        dis_link:false
+        app_link:"https://static-tour-and-travel-we-git-ef5b8c-dhyanesh-dharmiks-projects.vercel.app",
+        dis_link:true
      },
      {
         id:5,
@@ -50,8 +50,8 @@ const data1=[
         title:"Static TO-DO List Application",
         tech:"HTML,CSS,Javascript",
         git_link:"https://github.com/dhyaneshd25/Static-ToDo-List-using-HTML-CSS-Javascript",
-        app_link:"",
-        dis_link:false
+        app_link:"https://static-to-do-list-git-master-dhyanesh-dharmiks-projects.vercel.app",
+        dis_link:true
      }
 
 ]

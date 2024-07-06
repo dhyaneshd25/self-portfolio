@@ -1,14 +1,13 @@
 import React from "react";
 import "./introstyle.css";
 import "./../Navbar/navbarstyle.css";
-import ex from './ex.pdf'
-import { Link } from "react-scroll";
+import ddr from './Dhyanesh_Dharmik_Resume.pdf'
 const Intro=() =>{
 
   const handleDownload = () => {
     const link = document.createElement('a');
-    link.href = ex; // Use the imported PDF file as the href
-    link.setAttribute('download', 'ex.pdf'); // Set the desired file name here
+    link.href = ddr; // Use the imported PDF file as the href
+    link.setAttribute('download', 'Dhyanesh_Dharmik_Resume.pdf'); // Set the desired file name here
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -31,11 +30,11 @@ const Intro=() =>{
       <div className="profile-links">
         <a><img src="github.png"/></a>
         <a><img src="cc.jpeg"/></a>
-        <a><img src="lc.png"/></a>
+        <a><img src="linkedin.png"/></a>
       </div>
      </div>
       <div className="img-content">
-        <img src="w.jpg"/>
+        <img src="dd.jpg"/>
       </div>
   </section>
     );

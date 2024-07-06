@@ -1,7 +1,8 @@
 import React from "react";
+import { Link } from "react-scroll";
 import './skillstyle.css'
 const Skills=()=>{
-    return (<div className="wrapper-con">
+    return (<section id="skills">
         <h1 className="h">Skills</h1>
  <section id="skill">
     <div className="skill-container">
@@ -45,7 +46,7 @@ const Skills=()=>{
     </div>
 
  </section>
-    </div>
+    </section>
     );
 }
 

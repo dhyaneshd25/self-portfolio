@@ -11,10 +11,10 @@ const NavBar=()=>{
     <h1>D.</h1><h1>J.</h1><h1>D.</h1>
     </div>
     <div className="DektopMenu"> 
-<Link activeClass="active" to="intro" spy={true} smooth={true} offset={-150} duration={500} className="Desktopmenulist"> Home</Link>
-<Link activeClass="active" to="skills" spy={true} smooth={true} offset={-50} duration={500} className="Desktopmenulist">About</Link>
-<Link activeClass="active" to="project" spy={true} smooth={true} offset={-100} duration={500}  className="Desktopmenulist">Projects</Link>
-<Link activeClass="active" to="contact" spy={true} smooth={true} offset={-100} duration={500} className="Desktopmenulist">Contact </Link>
+<Link activeClass="active" to="intro" spy={true} smooth={true} offset={-150}duration={500} className="Desktopmenulist"> Home</Link>
+<Link activeClass="active" to="skills" spy={true} smooth={true} offset={-100} duration={500} className="Desktopmenulist">Skills</Link>
+<Link activeClass="active" to="projects" spy={true} smooth={true}  offset={-100} duration={500}  className="Desktopmenulist">Projects</Link>
+<Link activeClass="active" to="contactpage" spy={true} smooth={true} offset={-80}  duration={500} className="Desktopmenulist">Contact </Link>
 
     </div>
 
@@ -22,8 +22,8 @@ const NavBar=()=>{
    { show ? <div className="MobileMenu"> 
 <Link activeClass="active" to="intro" spy={true} smooth={true} offset={-100} duration={500} className="Mobilemenulist" onClick={()=>{setshow(false)}}> Home</Link>
 <Link activeClass="active" to="skills" spy={true} smooth={true} offset={-100} duration={500} className="Mobilemenulist" onClick={()=>{setshow(false)}}>About</Link>
-<Link activeClass="active" to="project" spy={true} smooth={true} offset={-100} duration={500}  className="Mobilemenulist" onClick={()=>{setshow(false)}}>Projects</Link>
-<Link activeClass="active" to="contact" spy={true} smooth={true} offset={-100} duration={500} className="Mobilemenulist" onClick={()=>{setshow(false)}}>Contact </Link>
+<Link activeClass="active" to="projects" spy={true} smooth={true} offset={-150} duration={500}  className="Mobilemenulist" onClick={()=>{setshow(false)}}>Projects</Link>
+<Link activeClass="active" to="contactpage" spy={true} smooth={true} offset={-80} duration={500} className="Mobilemenulist" onClick={()=>{setshow(false)}}>Contact </Link>
 
     </div> : <></>
 }

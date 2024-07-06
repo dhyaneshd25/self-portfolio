@@ -1,3 +1,12 @@
+#projects{
+    margin-top:5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+}
+
 #project{
     margin: auto;
     padding: 1rem;
@@ -5,6 +14,7 @@
     max-width: 90vw;
     display: flex;
     justify-content: center;
+    flex-direction: column;
     align-items:center;
     gap:2rem;
     border:0.5px solid white;
@@ -96,12 +106,18 @@ border-radius: 10px;
     bottom:0%;
     left:0;
     border-radius: 50%;
-    width:5rem;
-    height: 5rem;
+    width:4rem;
+    height: 4rem;
     z-index: 5999;
     background-color: white;
     font-size: 2rem;
     font-weight: 600;
+    transition: 0.3s;
+}
+.r-prevButton:hover{
+    scale:1.1;
+    background-color: black;
+    color: white;
 }
 
 .r-nextButton{
@@ -110,12 +126,18 @@ border-radius: 10px;
         bottom:0%;
         right:0%;
         border-radius: 50%;
-        width:5rem;
-        height: 5rem;
+        width:4rem;
+        height: 4rem;
         z-index: 5999;
         background-color: white;
         font-size: 2rem;
         font-weight: 600;
+        transition: 0.3s;
+}
+.r-nextButton:hover{
+    scale:1.1;
+    background-color: black;
+    color: white;
 }
 
 .links{
@@ -141,6 +163,9 @@ border-radius: 10px;
     .pro-card{
         margin-left: 2rem;
     }
+    .linkdes{
+        gap:0.5rem
+    }
     .s1{
         font-size: 1.2rem;
         font-weight: 700;
@@ -164,5 +189,13 @@ border-radius: 10px;
     .r-prevButton{
         width:2rem;
         height: 3rem;
+    }
+    .s1{
+        font-size: 1rem;
+        font-weight: 700;
+    }
+    .s2{
+        font-size: 0.7rem;
+        font-weight: 400;
     }
 }

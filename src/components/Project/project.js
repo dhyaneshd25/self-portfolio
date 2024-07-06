@@ -4,13 +4,13 @@ import {Swiper,useSwiper,SwiperSlide} from "swiper/react";
 import 'swiper/css'
 import sliderSettings from "../../utils/common";
 import data1 from "../Data/data1";
-
+import {FaLink} from "react-icons/fa"
 
 
 const Project=()=>{
   console.log(data1[0].img_name);
 return (
-    <div className="wrapper-con">
+    <div id="projects">
       
         <h1 className="h">Projects</h1>
   
@@ -33,7 +33,7 @@ return (
                       <span className="s2">{da.tech}</span>
               </span>
               <div className="links"> <a href={da.git_link}><img className="share-link" src="github.png"/></a>
-              { da.dis_link && <a href={da.app_link}>o</a>
+              { da.dis_link && <a href={da.app_link}><FaLink size={20}/></a>
          }
          </div>
              </div>
@@ -61,8 +61,8 @@ return (
                       <span className="s1">RealEstate Website</span>
                       <span className="s2">Nodejs Express Reactjs MongoDB</span>
               </span>
-              <div className="links"> <a href=""><img className="share-link" src="github.png"/></a>
-            <a href="">o</a>
+              <div className="links"> <a href="https://github.com/dhyaneshd25/fullstack-real-state-website"><img className="share-link" src="github.png"/></a>
+            <a href="https://fullstack-real-state-webs-git-3a61d4-dhyanesh-dharmiks-projects.vercel.app/"><FaLink size={20}/></a>
          </div>
              </div>
              </div>
@@ -76,8 +76,7 @@ return (
                       <span className="s1">Dynamic TO-DO List with PDF generator</span>
                       <span className="s2">Nodejs Express Reactjs MongoDB</span>
               </span>
-              <div className="links"> <a href=""><img className="share-link" src="github.png"/></a>
-            <a href="">o</a>
+              <div className="links"> <a href="https://github.com/dhyaneshd25/Day-Schedular"><img className="share-link" src="github.png"/></a>
          </div>
              </div>
              </div>
