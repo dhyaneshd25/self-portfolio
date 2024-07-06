@@ -21,7 +21,7 @@ const NavBar=()=>{
     {!show ? <BiMenuAltRight className="moblg" size={40} onClick={()=>{setshow(!show)}}/> : <FiX className="moblg" size={40} onClick={()=>{setshow(!show)}}/>}
    { show ? <div className="MobileMenu"> 
 <Link activeClass="active" to="intro" spy={true} smooth={true} offset={-100} duration={500} className="Mobilemenulist" onClick={()=>{setshow(false)}}> Home</Link>
-<Link activeClass="active" to="skills" spy={true} smooth={true} offset={-100} duration={500} className="Mobilemenulist" onClick={()=>{setshow(false)}}>About</Link>
+<Link activeClass="active" to="skills" spy={true} smooth={true} offset={-100} duration={500} className="Mobilemenulist" onClick={()=>{setshow(false)}}>Skills</Link>
 <Link activeClass="active" to="projects" spy={true} smooth={true} offset={-150} duration={500}  className="Mobilemenulist" onClick={()=>{setshow(false)}}>Projects</Link>
 <Link activeClass="active" to="contactpage" spy={true} smooth={true} offset={-80} duration={500} className="Mobilemenulist" onClick={()=>{setshow(false)}}>Contact </Link>
 
