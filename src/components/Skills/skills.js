@@ -42,7 +42,7 @@ const Skills=()=>{
         <div className="card-container">
         <div className="card">Database Management System</div>
         <div className="card">Operating System</div>
-        <div className="card">Object-Oritend Programming</div>
+        <div className="card">Object-Oriented Programming</div>
         <div className="card">Computer Network</div>
         <div className="card">Design Patterns</div>
         </div>

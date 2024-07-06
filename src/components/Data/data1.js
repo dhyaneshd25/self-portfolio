@@ -2,7 +2,7 @@ const data1=[
     {
        id:1,
        img_name:"mapp.png",
-       title:"Static Movie Info Webite",
+       title:"Static Movie Info Website",
        tech:"Reactjs,Nodejs",
        git_link:"https://github.com/dhyaneshd25/static_movie_info_website_using_reactjs",
        app_link:"https://static-movie-info-website-git-3a434b-dhyanesh-dharmiks-projects.vercel.app",
@@ -38,7 +38,7 @@ const data1=[
      {
         id:5,
         img_name:"trapp.png",
-        title:"Static Tours and Travels Webite",
+        title:"Static Tours and Travels Website",
         tech:"Reactjs,Nodejs",
         git_link:"https://github.com/dhyaneshd25/Static-Tour-and-Travel-Website-using-React-js",
         app_link:"https://static-tour-and-travel-we-git-ef5b8c-dhyanesh-dharmiks-projects.vercel.app",
