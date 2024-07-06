@@ -26,7 +26,12 @@ gap:0.5rem;
     border:3px solid rgb(5, 255, 5);
     box-shadow: 2px 2px 20px 2px white;
     background-color: white;
-
+    transition: 0.3s;
+}
+.footer-links img:hover{
+    scale:1.1;
+    box-shadow: 0 0 0 0;
+   
 }
 
 @media screen and (max-width:500px) {

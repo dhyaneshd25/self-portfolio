@@ -34,9 +34,9 @@ return (
            </form>
         </div>
         <div className="contact-profiles">
-               <div className="link"><a><img src="whatsapp.png"/> </a>8767191040</div>
-               <div className="link"><a><img src="gmail-logo.png"/> </a>dharmikdj@rknec.edu</div>
-               <div className="link"><a><img src="linkedin.png"/> </a>LinkedIn</div>
+               <div className="link"><a href="https://web.whatsapp.com/"><img src="whatsapp.png"/> </a>8767191040</div>
+               <div className="link"><a href="https://mail.google.com"><img src="gmail-logo.png"/> </a>dharmikdj@rknec.edu</div>
+               <div className="link"><a href="https://www.linkedin.com/in/dhyanesh-dharmik-500b44243/"><img src="linkedin.png"/> </a>LinkedIn</div>
         </div>
     </section>
 );

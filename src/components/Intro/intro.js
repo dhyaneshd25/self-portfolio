@@ -28,9 +28,9 @@ const Intro=() =>{
       <button className="btn btn2" onClick={handleDownload}>Download Resume</button>
       </div>
       <div className="profile-links">
-        <a><img src="github.png"/></a>
-        <a><img src="cc.jpeg"/></a>
-        <a><img src="linkedin.png"/></a>
+        <a href="https://github.com/dhyaneshd25"><img src="github.png"/></a>
+        <a href="https://www.codechef.com/users/dhyaneshd7"><img src="cc.jpeg"/></a>
+        <a href="https://www.linkedin.com/in/dhyanesh-dharmik-500b44243/"><img src="linkedin.png"/></a>
       </div>
      </div>
       <div className="img-content">

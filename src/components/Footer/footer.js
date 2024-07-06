@@ -7,11 +7,11 @@ const Footer=()=>{
          <span>Copyright &#169;2024 Dhyanesh Dharmik.</span><span> All right received.</span>
      </div>
      <div className="footer-links">
-        <img src="whatsapp.png"/>
-        <img src="gmail-logo.png"/>
-        <img src="linkedin.png"/>
-        <img src="github.png"/>
-        <img src="twitter.png"/>
+       <a href="https://web.whatsapp.com/"> <img src="whatsapp.png"/></a>
+       <a href="https://mail.google.com">   <img src="gmail-logo.png"/></a>
+       <a href="https://www.linkedin.com/in/dhyanesh-dharmik-500b44243/"><img src="linkedin.png"/></a>
+       <a href="https://github.com/dhyaneshd25"><img src="github.png"/></a>
+       <a href="https://x.com/B40Dharmik65519"> <img src="twitter.png"/></a>
      </div>
        </footer>
     )

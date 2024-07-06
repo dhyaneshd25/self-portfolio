@@ -8,26 +8,35 @@ const data1=[
        app_link:"https://static-movie-info-website-git-3a434b-dhyanesh-dharmiks-projects.vercel.app",
        dis_link:true
     },
-    {
-        id:2,
-        img_name:"whapp.png",
-        title:"Weather App",
-        tech:"Reactjs,Nodejs",
-        git_link:"https://github.com/dhyaneshd25/Weather-App-using-React-js",
-        app_link:"https://weather-app-using-react-js-navy.vercel.app/",
-        dis_link:true
+    {   id:2,
+      img_name:"javaq.png",
+      title:"Java Quiz Application",
+      tech:"java",
+      git_link:"https://github.com/dhyaneshd25/Quiz-application-using-Java",
+      app_link:"",
+      dis_link:false
+       
      },
      {
-        id:3,
-        img_name:"javaq.png",
-        title:"Java Quiz Application",
-        tech:"java",
-        git_link:"https://github.com/dhyaneshd25/Quiz-application-using-Java",
-        app_link:"",
-        dis_link:false
+      id:3,
+      img_name:"ddport.png",
+      title:"Self Portfolio",
+      tech:"Reactjs,Nodejs",
+      git_link:"https://github.com/dhyaneshd25/self-portfolio",
+      app_link:"https://self-portfolio-git-master-dhyanesh-dharmiks-projects.vercel.app/",
+      dis_link:true
      },
      {
-        id:4,
+      id:4,
+      img_name:"whapp.png",
+      title:"Weather App",
+      tech:"Reactjs,Nodejs",
+      git_link:"https://github.com/dhyaneshd25/Weather-App-using-React-js",
+      app_link:"https://weather-app-using-react-js-navy.vercel.app/",
+      dis_link:true 
+     },
+     {
+        id:5,
         img_name:"trapp.png",
         title:"Static Tours and Travels Webite",
         tech:"Reactjs,Nodejs",
@@ -36,7 +45,7 @@ const data1=[
         dis_link:true
      },
      {
-        id:5,
+        id:6,
         img_name:"tthtml.png",
         title:"Tic Tac Toe Game",
         tech:"HTML,CSS,Javascript",
@@ -45,7 +54,7 @@ const data1=[
         dis_link:false
      },
      {
-        id:6,
+        id:7,
         img_name:"tdhtml.png",
         title:"Static TO-DO List Application",
         tech:"HTML,CSS,Javascript",

@@ -25,9 +25,12 @@ const Skills=()=>{
         <div className="card-container">
         <div className="card"><img src="css.png"/>CSS</div>
         <div className="card"><img src="react.png"/>React Js</div>
+        <div className="card"><img src="nodejs.png"/>Node Js</div>
+        <div className="card"><img src="express.png"/>Express Js</div>
+        <div className="card"><img src="mongodb.png"/>Mongo DB</div>
+        <div className="card"><img src="mysql.png"/>My SQL</div>
         <div className="card"><img src="github.png"/>Github</div>
         <div className="card"><img src="git.png"/>Git</div>
-        <div className="card"><img src="figma.png"/>Figma</div>
         <div className="card"><img src="vscode.png"/>VS Code</div>
         <div className="card"><img src="eclipse.png"/>Eclipse</div>
         </div>
