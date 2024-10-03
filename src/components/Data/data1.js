@@ -36,7 +36,16 @@ const data1=[
       dis_link:true 
      },
      {
-        id:5,
+      id:5,
+        img_name:"resapp.png",
+        title:"RealEstate Website",
+        tech:"Nodejs Express Reactjs MongoDB",
+        git_link:"https://github.com/dhyaneshd25/fullstack-real-state-website",
+        app_link:"https://fullstack-real-state-webs-git-3a61d4-dhyanesh-dharmiks-projects.vercel.app/",
+        dis_link:true
+     },
+     {
+        id:6,
         img_name:"trapp.png",
         title:"Static Tours and Travels Website",
         tech:"Reactjs,Nodejs",
@@ -45,7 +54,7 @@ const data1=[
         dis_link:true
      },
      {
-        id:6,
+        id:7,
         img_name:"tthtml.png",
         title:"Tic Tac Toe Game",
         tech:"HTML,CSS,Javascript",
@@ -54,11 +63,20 @@ const data1=[
         dis_link:false
      },
      {
-        id:7,
+      id:8,
+        img_name:"drapp.png",
+        title:"Dynamic TO-DO List with PDF generator",
+        tech:"Nodejs Express Reactjs MongoDB",
+        git_link:"https://github.com/dhyaneshd25/Static-Tour-and-Travel-Website-using-React-js",
+        app_link:"",
+        dis_link:false
+     },
+     {
+        id:9,
         img_name:"tdhtml.png",
         title:"Static TO-DO List Application",
         tech:"HTML,CSS,Javascript",
-        git_link:"https://github.com/dhyaneshd25/Static-ToDo-List-using-HTML-CSS-Javascript",
+        git_link:"https://github.com/dhyaneshd25/Day-Schedular",
         app_link:"https://static-to-do-list-git-master-dhyanesh-dharmiks-projects.vercel.app",
         dis_link:true
      }

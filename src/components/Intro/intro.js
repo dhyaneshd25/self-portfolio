@@ -34,7 +34,7 @@ const Intro=() =>{
       </div>
      </div>
       <div className="img-content">
-        <img src="dd.jpg"/>
+        <img src="pp.png"/>
       </div>
   </section>
     );
